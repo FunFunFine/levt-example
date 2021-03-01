@@ -24,3 +24,15 @@ g8 scala/hello-world.g8
 <img width="2032" alt="Screenshot 2021-03-01 at 4 12 17 PM" src="https://user-images.githubusercontent.com/31823086/109489587-e7623700-7aa8-11eb-8e77-f89f0c4688c5.png">
 
 
+# Собрать руками
+
+```
+> brew install scala
+> cs install scalac
+> mkdir bin
+> scalac  -d bin src/main/scala/domain.scala src/main/scala/levt/Main.scala src/main/scala/levt/pog/multipackage.scala src/main/scala/levt/pog/usual.scala
+> cd bin
+> jar -cfm levt.jar ../MANIFEST.mf .
+>  java -jar levt.jar
+>>> (Bar from pog,Foo from zog,User(a dog))
+```
