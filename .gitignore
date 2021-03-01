@@ -52,3 +52,5 @@ project/metals.sbt
 .bloop/levt-example/bloop-internal-classes/classes-Metals-A6iYr3_VSP6EJtsicuiKVw==-68D1IvulQ7CPubOtgPcFDA==/levt/zog/dog/bark.class
 .bloop/levt-example/bloop-internal-classes/classes-Metals-A6iYr3_VSP6EJtsicuiKVw==-68D1IvulQ7CPubOtgPcFDA==/levt/zog/dog/bark$.class
 project/project/metals.sbt
+scala-library.jar
+ScalacJar.jar
